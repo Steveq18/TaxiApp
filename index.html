@@ -68,21 +68,27 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt exceptu
         <fieldset>
             <legend>Completar la Informacion y Contactanos</legend>
             <div>
+
                   <label for="txtnombre" >Nombre Completo</label>
-            <input type="text" name="txtnombre" id="txtnombre"  placeholder="Escribe tu Nombre">
+                    <!-- Campo requerido de texto -->
+            <input type="text" name="txtnombre" id="txtnombre"  placeholder="Escribe tu Nombre" requerido>
             </div>
+
           <div>
             <label for="txt Telefono">Telefono</label>
-            <input type="tel" name="txt Telefono" id="txt Telefono" placeholder="Escribe tu número Telefono">
+             <!-- Campo requerido con formato de número de teléfono -->
+            <input type="tel" name="txt Telefono" id="txt Telefono" placeholder="Escribe tu número Telefono" pattern="[0-9]{8,10}"requerido>
           </div>
             
           <div>
              <label  for="txt Correo">Correo Electronico</label>
-            <input type="email" name="txt Correo" id="txt Correo" placeholder="Escribe tu Correo">
+               <!-- Campo requerido de correo electrónico -->
+            <input type="email" name="txt Correo" id="txt Correo" placeholder="Escribe tu Correo"requerido>
           </div>
            
           <div>
            <label for="txtMensaje" >Mensaje</label>
+            <!-- Campo requerido de área de texto -->
             <textarea name="txtMensaje" id="txtMensaje" rows="5"></textarea>
           </div>
 
