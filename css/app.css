@@ -7,10 +7,41 @@
     --azul:#3709e0;
     --anaranjado:#d16f1e;
 }
-h1 {
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulo_principal {
     color: var(--amarillo);
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 4rem;
     
+}
+.navegacion_principal{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--azul);
+}
+.navegacion_principal a{
+     color:var(--blanco);
+     text-decoration: none;
+     font-size: 2rem;
+     font-weight: bold;
+     padding: 1rem;
+
+}
+.navegacion_principal a:hover{
+    background-color: var(--amarillo);
+    color:var(--negro);
+
+}
+
+.contenedor{
+ width: 120rem;
+ margin: 0 auto;
+
 }
