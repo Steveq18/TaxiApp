@@ -64,35 +64,31 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt exceptu
 </section>
    <section>
     <h2>Contactenos</h2>
-    <form id="contactForm" novalidate>
+    <form>
       <fieldset>
-          <legend>Completar la Información y Contactanos</legend>
+          <legend>Completar la Informacion y Contactanos</legend>
 
           
           <div>
               <label for="txtnombre">Nombre Completo</label>
               <input type="text" name="txtnombre" id="txtnombre" placeholder="Escribe tu Nombre"
                   pattern="[A-Za-z\s]+" requerido>
-              <span class="validation-message" id="nombreValido" style="color: green; display:none;">Nombre ingresado correctamente</span>
-              <span class="validation-message" id="nombreInvalido" style="color: red; display:none;">El nombre debe contener solo letras y espacios</span>
-          </div>
+              
 
           
           <div>
               <label for="txtTelefono">Teléfono</label>
-              <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Escribe tu número de Teléfono"
+              <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Escribe número de Teléfono"
                   pattern="[0-9]{8,10}" requerido>
-              <span class="validation-message" id="telefonoValido" style="color: green; display:none;">Teléfono ingresado correctamente</span>
-              <span class="validation-message" id="telefonoInvalido" style="color: red; display:none;">Ingresa un número de teléfono válido (8-10 dígitos)</span>
+             
+            
           </div>
 
           
           <div>
               <label for="txtCorreo">Correo Electrónico</label>
               <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Escribe tu Correo" requerido>
-              <span class="validation-message" id="correoValido" style="color: green; display:none;">Correo ingresado correctamente</span>
-              <span class="validation-message" id="correoInvalido" style="color: red; display:none;">Ingresa un correo electrónico válido</span>
-          </div>
+             
 
           <div>
               <label for="txtMensaje">Mensaje</label>
@@ -102,6 +98,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt exceptu
           <div>
               <input type="submit" value="Enviar">
           </div>
+
         </fieldset>
     </form>
    </section>
@@ -112,6 +109,6 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt exceptu
 <p>Todos los derechos reservados. SqL</p>
 
 </footer>
-    
+
 </body>
 </html>
